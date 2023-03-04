@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 plt.rcParams["figure.figsize"] = (11, 5)
 
 df = pd.read_csv('GreedflationData.csv')
-
+# Data is from https://www.abs.gov.au/statistics/economy/business-indicators/business-indicators-australia/latest-release
 
 fig, ax = plt.subplots(figsize=(10, 5))
 
